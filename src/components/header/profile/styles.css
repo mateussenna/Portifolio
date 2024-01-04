@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.content-container {
+    height: 100vh;
+    background-color: #333;
+}
+.profile-container{
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/containerbackground.jpg');
+    background-size: cover;
+}
+.profile-content{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+.profile-image{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #D870DB;
+}
+.name-text{
+    font-family: 'oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+.profile-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #D870DB;
+    color: white;
+    font-family: 'oswald', sans-serif;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.divider{
+    width: 100%;
+    border-top: .5px solid #bfbfbf;
+    margin: 20px 0;
+}
+.icons-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.icon-item{
+    width: 80px;
+    height: auto;
+}
+.profile-sinopse{
+    width: 430px;
+    font-family: 'oswald', sans-serif;
+    color: white;
+    font-size: 17px;
+    
+    
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#homeContent{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+body {
+    background-image: url('../../assets/backgroundImage.jpg');
+    background-size: contain;
+  }
+
+.arrows{
+    margin-top: 120px;
+    width: 60px;
+    height: 172px;
+    bottom: 20px;
+
+}
+.arrows path{
+    stroke: white;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+@keyframes arrow{
+    0%{opacity: 0;}
+    40%{opacity: 1;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+
+}
+@-webkit-keyframes arrow{
+    0%{opacity: 0;}
+    40%{opacity: 1;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+}
+
+.arrows path.a1{
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+.arrows path.a2{
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+.arrows path.a3{
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
